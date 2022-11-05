@@ -11,7 +11,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
 
     
-def get_pose(filepath,image_no):
+def get_pants(filepath,image_no):
     # For static images:
     filepath = 'images/'
     IMAGE_FILES = os.listdir(r"E:\Charuset Pykathin\custom_dataset\images\train")

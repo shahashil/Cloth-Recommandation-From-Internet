@@ -10,11 +10,6 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
 
-def CalculateRatio(a,b,c,d): #[Left Shoulder,roght shoulder, nose,left_angle]
-    Distance_width = math.dist([a[0], a[1]], [b[0], b[1]])
-    Distance_height = math.dist([b[0], b[1]], [d[0], d[1]])
-    #ratio = CalculateRatio(left_shoulder,right_shoulder,nose,left_ankle) call
-    return Distance_height/Distance_width
     
 def get_pose(filepath,image_no):
     # For static images:

@@ -4,7 +4,7 @@
 * Firstly Train the Images in your Dataset in train_resnet.py and extract all the features.
 
 * In the Main.py we have to describe the Current Topwear we want to get recommendation for. 
-That description will be further used to get Google Images of the model wearing that. 
+That description will be further used to get Google Images of the model wearing that from the internet. 
 
 * To get the Full body pic of model we will use MediaPipe Library in pose.py
 to extract the Human Pose points and filter out the Unwanted one.
